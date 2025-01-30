@@ -1,6 +1,5 @@
 import React from 'react';
 import './Billboard.css'
-import Leaf from '../Assets/Mapleleaf.png'
 import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap';
 
@@ -29,7 +28,7 @@ function Billboard() {
               <div>Digital is our home.</div>
             </div>
             <div className='right-side'>
-                <img src={Leaf} className='leaf'/> 
+                <img src="/Assets/Mapleleaf.png" className='leaf'/> 
               <div className='wordings-right'>
               Canada + the World
                 <div>
