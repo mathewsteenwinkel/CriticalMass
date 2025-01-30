@@ -1,21 +1,47 @@
 .header-container{
   height: 470px;
   background-color:#f7faf2;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  z-index: 1;
 }
 
 .name {
   color: #f24711;
-  font-size: 200px;
-  font-weight: semi-bold;
+  font-size: 16.5vw;
+  font-weight: bold;
   font-family: "DM Sans", serif;
   font-optical-sizing: auto;
   font-style: normal;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: -28px;
+  margin-top:-40px;
+  overflow: hidden;
 }
 
-.period {
-  color: #f24711;
-  font-size: 200px;
-  
+.leaf{
+  height: 80%;
+  margin-top: 5px;
+}
 
+
+.subHeading {
+  color: #f24711;
+  height:50px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 88%;
+  font-weight: 400;
+  margin-top: -70px;
+  margin-right: 72.250px;
+  margin-left: 72.250px;
+}
+
+.right-side{
+  display: flex;
 }
