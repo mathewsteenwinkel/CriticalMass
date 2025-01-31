@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./BackgroundVideo.css";
 import CustomCursor from "./CustomCursor";
+import Blog from "./Blog";
 
 function BackgroundVideo() {
   const [cursorVisible, setCursorVisible] = useState(false);
@@ -16,6 +17,7 @@ function BackgroundVideo() {
         <video autoPlay muted loop id="myVideo" className="background-video">
           <source src="/Assets/MakeItCount.mp4" type="video/mp4" />
         </video>
+        <Blog />
       </div>
     </>
   );
