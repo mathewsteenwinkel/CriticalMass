@@ -1,0 +1,45 @@
+.mySwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-container {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.photo{
+  max-width: 402px;
+  vertical-align: middle;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+
+}
+
+.Name-Date{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  width: 401px;
+  height: 144px;
+  font-family: "PT Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.author{
+  color: #0c47c7;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-transform: uppercase;
+}
+
+.subHeading{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  width: 70%;
+  color: black;
+}
+

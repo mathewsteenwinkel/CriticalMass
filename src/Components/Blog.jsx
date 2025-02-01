@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 import './Blog.css'
+import Articles from './Articles';
 
 function Blog() {
   const message = (
@@ -7,7 +8,7 @@ function Blog() {
       Hot off <br /> the press.
     </>
   );
-  
+
   return (
     <div className='section__blog'>
       <div className='blog'>
@@ -15,8 +16,10 @@ function Blog() {
           <h2 className='text-balance'>{message}</h2>
           <button className='explore'>Explore news</button>
         </div>
+<Articles />
       </div>
-    </div>
+      </div>
+   
   )
 }
 
