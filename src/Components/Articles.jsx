@@ -18,22 +18,51 @@ export default function Articles() {
         freeMode={false}
         style={{ display: "flex" }}
         pagination={{
+          el: '.swiper-pagination',
           clickable: true,
+          enabled: false
         }}
         modules={[FreeMode, Pagination]}
-        centeredSlides={true}
+        centeredSlides={false}
         className="mySwiper"
       >
         <SwiperSlide className='slide'>
+          <div className='photo-div'>
           <img src='./Assets/adobestock_892449730.jpeg.avif' className='photo' />
+          </div>
           <div className='Name-Date'>
             <p className='author'> John Doe</p>
             <p className='date'>18.10.2024</p>
           </div>
-          <div className='subHeading'>
+          <div className='body-text'>
             Agency Leaders Share Their Five-Year Plans for Future-Proofing
           </div>
         </SwiperSlide>
+        <SwiperSlide className='slide'>
+          <div className='photo-div'>
+          <img src='./Assets/adobestock_892449730.jpeg.avif' className='photo' />
+          </div>
+          <div className='Name-Date'>
+            <p className='author'> John Doe</p>
+            <p className='date'>18.10.2024</p>
+          </div>
+          <div className='body-text'>
+            Agency Leaders Share Their Five-Year Plans for Future-Proofing
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className='slide'>
+          <div className='photo-div'>
+          <img src='./Assets/adobestock_892449730.jpeg.avif' className='photo' />
+          </div>
+          <div className='Name-Date'>
+            <p className='author'> John Doe</p>
+            <p className='date'>18.10.2024</p>
+          </div>
+          <div className='body-text'>
+            Agency Leaders Share Their Five-Year Plans for Future-Proofing
+          </div>
+        </SwiperSlide>
+       
       
 
 

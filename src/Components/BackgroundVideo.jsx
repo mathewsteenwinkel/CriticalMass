@@ -17,7 +17,11 @@ function BackgroundVideo() {
         <video autoPlay muted loop id="myVideo" className="background-video">
           <source src="/Assets/MakeItCount.mp4" type="video/mp4" />
         </video>
+      </div>
+      <div>
         <Blog />
+
+
       </div>
     </>
   );

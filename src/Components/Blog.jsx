@@ -16,10 +16,10 @@ function Blog() {
           <h2 className='text-balance'>{message}</h2>
           <button className='explore'>Explore news</button>
         </div>
-<Articles />
+        <Articles />
       </div>
-      </div>
-   
+    </div>
+
   )
 }
 
