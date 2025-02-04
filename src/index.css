@@ -5,3 +5,4 @@ html, body {
   overflow-x: hidden; /* prevents horizontal scrolling if unnecessary */
   scroll-behavior: smooth; /* optional: smooth scrolling */
 }
+

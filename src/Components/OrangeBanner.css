@@ -1,0 +1,40 @@
+html {
+  font-size: 18px;
+}
+
+@font-face {
+  font-family: 'Compacta';
+  src: url('/public/Assets/Compacta.otf') format('truetype');
+  font-style: normal;
+}
+
+.orange-banner {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  height: 100vh;
+  background-color: #f24711;
+  z-index: 1;
+  position: relative;
+}
+
+.orange-banner-content-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  color: white;
+  width: 60%;
+}
+
+
+.orange-banner-content-copy-paragraph {
+  font-size: 135px;
+  line-height: 110px;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-wrap: wrap;
+  font-family: "Compacta", sans-serif;  
+
+} 
+
