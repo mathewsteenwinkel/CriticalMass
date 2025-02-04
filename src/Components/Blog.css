@@ -1,12 +1,11 @@
 .section__blog{
-  height: 800px;
-  background-color:#f7faf2;
   width: 100%;
   padding: 0;
-  margin-top: 100vh ;
-  z-index: 100;
+  padding-top: 100vh ;
+  z-index: 1;
   position: relative;
-  cursor: pointer;
+
+  
 }
 
 .blog{
@@ -16,6 +15,8 @@
   padding-bottom: 8rem;
   display: flex;
   flex-direction: row;
+  background-color:#f7faf2;
+  height: 100%;
 
 }
 
