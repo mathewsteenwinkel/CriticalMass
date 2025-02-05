@@ -21,15 +21,16 @@ html {
   background-color: #f24711;
   z-index: 1;
   position: relative;
+  display: flex;
+  align-items: center; 
 }
 
 .orange-banner-content-copy {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  height: 100%;
   color: white;
   width: 65%;
+  justify-content: center;
 }
 
 

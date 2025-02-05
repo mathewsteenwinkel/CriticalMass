@@ -1,11 +1,8 @@
 .section__blog{
   width: 100%;
   padding: 0;
-  padding-top: 100vh ;
   z-index: 1;
   position: relative;
-
-  
 }
 
 .blog{
@@ -17,7 +14,6 @@
   flex-direction: row;
   background-color:#f7faf2;
   height: 100%;
-
 }
 
 .text-balance{
