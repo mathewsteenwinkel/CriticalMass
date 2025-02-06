@@ -3,21 +3,17 @@ html {
 }
 
 .nike-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 1360px;
   background-color: #f7faf2;
   position: relative;
   padding-left: 5rem;
   padding-right: 5rem;
-  
+  flex-direction: column;
 }
 
-.nike-header{
-
+.nike-header {
+  padding-bottom: 50px;
 }
-
 
 .nike-content {
   display: flex;
@@ -25,14 +21,17 @@ html {
   justify-content: center;
   align-items: center;
   width: 1620px;
+  height: 600px;
+  padding-bottom: 1rem;
 }
 
 .nike {
   position: absolute;
   top: 0;
-  transform: translate(0, -19%);
+  left: 50%;
+  transform: translate(-50%, -19%);
   aspect-ratio: 1280/600;
-  width: 87%;
+  width: 1620px;
   height: auto;
   z-index: 3;
   opacity: 1;

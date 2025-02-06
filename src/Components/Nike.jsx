@@ -1,11 +1,13 @@
 import React from 'react'
 import './Nike.css'
 import NikeText from './NikeText'
+import PastWork from './PastWork'
 
 function Nike() {
   return (
     <>
-      <div className='nike-container'>
+    <div className='nike-container'>
+      <div className='nike-body' >
         <div className='nike-header'>
           <div className='nike-content'>
             <img src='./Assets/Nike.jpg' alt="Nike" className="nike" />
@@ -14,6 +16,8 @@ function Nike() {
             </video>
           </div>
           <NikeText />
+        </div>
+        <PastWork />
         </div>
       </div>
     </>

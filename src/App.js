@@ -4,6 +4,7 @@ import BackgroundVideo from './Components/BackgroundVideo';
 import OrangeBanner from './Components/OrangeBanner';
 import Blog from './Components/Blog';
 import Nike from './Components/Nike';
+import PastWork from './Components/PastWork';
 
 function App() {
   return (
