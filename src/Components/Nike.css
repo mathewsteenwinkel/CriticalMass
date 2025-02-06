@@ -3,7 +3,7 @@ html {
 }
 
 .nike-container {
-  height: 1360px;
+  height: 1860px;
   background-color: #f7faf2;
   position: relative;
   padding-left: 5rem;
@@ -11,8 +11,13 @@ html {
   flex-direction: column;
 }
 
+.nike-body{
+  width: 100%;
+
+}
+
 .nike-header {
-  padding-bottom: 50px;
+  padding-bottom: 55px;
 }
 
 .nike-content {
