@@ -8,11 +8,10 @@ function PastWork() {
       <div className='past-works'>
         <div className='past-works-body'>
           <div className='visuals'>
-            <img src='./Assets/Car.jpg' className='image' />
-            <video className='small-video'>
-              <source src='src="//videos.ctfassets.net/drid77jut33t/46CDqw6WR8EHudDQDqJ7kw/3a9b0b9240cb4ccb9d568b088aa55470/Hover_BMW_1.mp4"'/>
+            <img src='./Assets/Car.jpg' className='cover-photo' />
+            <video className='small-video cover-photo' autoPlay loop muted>
+              <source src='./Assets/Lagoon.mp4' type='video/mp4'/>
             </video>
-
           </div>
           <div className='past-works-text'>
             <div className='brand-title'>
@@ -30,7 +29,7 @@ function PastWork() {
 
         <div className='past-works-body'>
           <div className='visuals'>
-            <img src='./Assets/Dwight.jpg' className='image' />
+            <img src='./Assets/Dwight.jpg' className='cover-photo' />
             <video className='small-video'>
               <source />
             </video>
@@ -53,9 +52,9 @@ function PastWork() {
 
         <div className='past-works-body'>
           <div className='visuals'>
-            <img src='./Assets/Starburst.jpg' className='image' />
+            <img src='./Assets/Starburst.jpg' className='cover-photo' />
             <video className='small-video'>
-              <source  />
+              <source />
             </video>
 
           </div>

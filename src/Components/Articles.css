@@ -11,7 +11,9 @@ html {
 .mySwiper {
   width: 66%;
   height: 100%;
+  margin-top: 50px;
 }
+
 
 .swiper-container {
   display: flex;
@@ -23,7 +25,7 @@ html {
 }
 
 .swiper-slide{
-  width: 550px !important;
+  width: 545px !important;
   margin-right: 20px;
 }
 
