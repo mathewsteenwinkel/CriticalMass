@@ -36,6 +36,85 @@ function Awards() {
           <SwiperSlide className='award-slide'>
             <div className='award-div'>
               <div className='image-div'>
+                <img src='./Assets/awards/FastCompany.jpg' alt='award1' />
+              </div>
+              <div className='award-info'>
+                <p className='award-place'>GOLD</p>
+                <p className='award-name'>Fast Company's 100 Best Workplaces for Innovators</p>
+                <p className='award-date'>SEP 2024</p>
+
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className='award-slide'>
+            <div className='award-div'>
+              <div className='image-div'>
+                <img src='./Assets/awards/FastCompany.jpg' alt='award1' />
+              </div>
+              <div className='award-info'>
+                <p className='award-place'>GOLD</p>
+                <p className='award-name'>Fast Company's 100 Best Workplaces for Innovators</p>
+                <p className='award-date'>SEP 2024</p>
+
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className='award-slide'>
+            <div className='award-div'>
+              <div className='image-div'>
+                <img src='./Assets/awards/FastCompany.jpg' alt='award1' />
+              </div>
+              <div className='award-info'>
+                <p className='award-place'>GOLD</p>
+                <p className='award-name'>Fast Company's 100 Best Workplaces for Innovators</p>
+                <p className='award-date'>SEP 2024</p>
+
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className='award-slide'>
+            <div className='award-div'>
+              <div className='image-div'>
+                <img src='./Assets/awards/FastCompany.jpg' alt='award1' />
+              </div>
+              <div className='award-info'>
+                <p className='award-place'>GOLD</p>
+                <p className='award-name'>Fast Company's 100 Best Workplaces for Innovators</p>
+                <p className='award-date'>SEP 2024</p>
+
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className='award-slide'>
+            <div className='award-div'>
+              <div className='image-div'>
+                <img src='./Assets/awards/FastCompany.jpg' alt='award1' />
+              </div>
+              <div className='award-info'>
+                <p className='award-place'>GOLD</p>
+                <p className='award-name'>Fast Company's 100 Best Workplaces for Innovators</p>
+                <p className='award-date'>SEP 2024</p>
+
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className='award-slide'>
+            <div className='award-div'>
+              <div className='image-div'>
+                <img src='./Assets/awards/FastCompany.jpg' alt='award1' />
+              </div>
+              <div className='award-info'>
+                <p className='award-place'>GOLD</p>
+                <p className='award-name'>Fast Company's 100 Best Workplaces for Innovators</p>
+                <p className='award-date'>SEP 2024</p>
+
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className='award-slide'>
+            <div className='award-div'>
+              <div className='image-div'>
+                <img src='./Assets/awards/FastCompany.jpg' alt='award1' />
               </div>
               <div className='award-info'>
                 <p className='award-place'>GOLD</p>
@@ -48,8 +127,8 @@ function Awards() {
         </Swiper>
       </div>
 
-      <div className='border' />
       </div>
+      <div className='border' />
     </div>
   )
 }
