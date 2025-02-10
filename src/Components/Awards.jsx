@@ -18,7 +18,7 @@ function Awards() {
       <div className='awards-header'>
         RECENT WINS
       </div>
-      <div>
+      <div className='awards-swiper'>
         <Swiper
           slidesPerView={4}
           spaceBetween={20}
