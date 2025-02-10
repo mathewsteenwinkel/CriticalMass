@@ -22,23 +22,17 @@ html{
   aspect-ratio: 410/170;
   height: 600px;
   overflow: hidden;
+  top: auto;
 }
 
 .cover-photo{
   height: 100%;
   opacity: 1;
   transition: cubic-bezier(.4, 0, .2, 1) 1s;
-  overflow: hidden;
 }
 
 .cover-photo:hover{
   opacity: 0;
-}
-
-.small-video{
-  position:absolute;
-
-
 }
 
 .past-works-body{

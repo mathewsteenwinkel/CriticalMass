@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'PP object sans ';
+  src: url('/public/Assets/object.ttf') format('truetype');
+  font-style: normal;
+}
+
+
+.awards{
+  position:relative;
+  background-color:#f7faf2;
+  height: 800px;
+  z-index: 1;
+  width: 1870px;
+}
+
+.awards-body{
+  padding-top: 90px;
+  padding-bottom: 90px;
+  padding-left: 90px;
+  padding-right: 45px;
+}
+
+.border {
+  height: 1px;
+  width: 100%;
+  background-color: rgb(229, 231, 235);
+  margin-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.awards-header{
+  height: 67.5px;
+  font-size: 32px;
+  font-family: 'PP Object Sans', sans-serif;
+  margin: 18px;
+  font-weight: 300;
+}
+
+.award-info{
+  font-family: 'PP Object Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}

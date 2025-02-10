@@ -9,7 +9,7 @@ function PastWork() {
         <div className='past-works-body'>
           <div className='visuals'>
             <img src='./Assets/Car.jpg' className='cover-photo' />
-            <video className='small-video cover-photo' autoPlay loop muted>
+            <video className='small-video' autoPlay loop muted>
               <source src='./Assets/Lagoon.mp4' type='video/mp4'/>
             </video>
           </div>
