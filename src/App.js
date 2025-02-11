@@ -5,6 +5,7 @@ import OrangeBanner from './Components/OrangeBanner';
 import Blog from './Components/Blog';
 import Nike from './Components/Nike';
 import Awards from './Components/Awards';
+import Wedo from './Components/Wedo';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <OrangeBanner />
       <Nike />
       <Awards />
+      <Wedo />
     </div>
   );
 }
