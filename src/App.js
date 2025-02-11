@@ -6,6 +6,7 @@ import Blog from './Components/Blog';
 import Nike from './Components/Nike';
 import Awards from './Components/Awards';
 import Wedo from './Components/Wedo';
+import TrailHead from './Components/TrailHead';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Nike />
       <Awards />
       <Wedo />
+      <TrailHead />
     </div>
   );
 }
