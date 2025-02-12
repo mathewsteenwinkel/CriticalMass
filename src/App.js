@@ -8,6 +8,8 @@ import Awards from './Components/Awards';
 import Wedo from './Components/Wedo';
 import TrailHead from './Components/TrailHead';
 import Offices from './Components/Offices';
+import Cities from './Components/Cities';
+
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
       <Wedo />
       <TrailHead />
       <Offices />
+      <Cities />
     </div>
   );
 }
