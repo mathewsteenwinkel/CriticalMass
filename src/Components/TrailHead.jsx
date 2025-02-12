@@ -35,7 +35,7 @@ function TrailHead() {
           </div>
         </div>
         <div className='Trail-right'>
-          <div className='photo'>
+          <div className='photoOfMe'>
             <img src='./Assets/Me.png' className='photo-me' />
           </div>
         </div>
