@@ -6,42 +6,58 @@
 
 .Cities-div{
   background-color: #0D47C7;
-  height: 100%;
   width: 100%;
   position: relative;
   display: flex;
   justify-content: center;
-}
-
-.Citie-container{
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
+
+.City-container{
+  display: flex;
+  flex-direction: column;
+  height: 160px;
+  margin-left: 30px;
+}
+
+
 .City{
   display: flex;
   flex-direction: row;
   align-items: center;
   color: white;
   font-family: 'PP object sans', sans-serif;
-  font-size: 26px;
+  font-size: 30px;
   line-height: 36px;
   font-weight: 300;
-  height: 112px;
-  
+  height: 155px;
+
+}
+
+.City:hover .City-photo{
+  opacity: 1;
 }
 
 .City-photo{
   opacity: 0;
+  position: absolute;
+  top: -4%;
+  left: 35%;
+  transition: opacity 0.3s ease-in-out;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
 }
 
 .Address{
   display: flex;
   flex-direction: row;
   margin: 0;
-  font-size: 16px;
-  height: 112px;
-  width: 900px;
+  font-size: 17px;
+  height: 155px;
+  width: 1175px;
+  justify-content: end;
 }
 
 .Address-city{
@@ -52,15 +68,25 @@
   
 }
 
+.address-street{
+  margin: 0;
+  line-height: 26px;
+  display: flex;
+  align-content: center;
+
+}
+
 .Seperator{
   height: 2px;
   background-color: white;
-  width: 95vw;
+  width: 97vw;
 }
 
 .location-jobs{
   display: flex;
   flex-direction: row;
+  width: 475px;
+  justify-content: end;
 }
 
 .location-opening{
@@ -82,15 +108,13 @@
   transform: scale(1.5);
 }
 
+.loaction-arrow{
+  font-size: 20px;
+  font-weight: 600;
+}
+
 .arrow{
   margin-left: 10px;
+  
 }
 
-.address-street{
-  margin: 0;
-  line-height: 20px;
-  display: flex;
-  justify-content: flex-end;
-  align-content: center;
-
-}
