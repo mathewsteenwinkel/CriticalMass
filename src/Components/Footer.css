@@ -1,0 +1,37 @@
+.Footer{
+  width: 100%;
+  height: 10%;
+  position: relative;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
+.sitemap{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+
+}
+
+.socials{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.trailhead{
+  width: 250px;
+}
+
+.linkedin{
+  height: 40px;
+
+}
+.insta{
+  height: 40px;
+}

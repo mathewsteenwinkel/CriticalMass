@@ -10,6 +10,7 @@ import TrailHead from './Components/TrailHead';
 import Offices from './Components/Offices';
 import Cities from './Components/Cities';
 import Connect from './Components/Connect';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <Offices />
       <Cities />
       <Connect />
+      <Footer />
     </div>
   );
 }
