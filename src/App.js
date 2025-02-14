@@ -9,6 +9,7 @@ import Wedo from './Components/Wedo';
 import TrailHead from './Components/TrailHead';
 import Offices from './Components/Offices';
 import Cities from './Components/Cities';
+import Connect from './Components/Connect';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <TrailHead />
       <Offices />
       <Cities />
+      <Connect />
     </div>
   );
 }
