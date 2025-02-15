@@ -29,14 +29,14 @@ function Awards() {
         className="back"
         onClick={() => swiperRef.current?.slidePrev()}
       >
-        Prev
+        <div class="arrow-back"> ←</div>
       </button>
 
       <button
         className="forward"
         onClick={() => swiperRef.current?.slideNext()}
       >
-        Next
+        <div class="arrow-forward"> ←</div>
       </button>
       </div>
         <Swiper
