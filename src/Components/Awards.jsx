@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/free-mode';
@@ -11,6 +11,11 @@ import './Awards.css';
 
 
 function Awards() {
+  const swiperRef = useRef(null);
+
+
+
+
   return (
     <div className='awards'>
       <div className='border'/>
@@ -19,7 +24,23 @@ function Awards() {
         RECENT WINS
       </div>
       <div className='awards-swiper'>
+      <div className='buttons'>
+      <button
+        className="back"
+        onClick={() => swiperRef.current?.slidePrev()}
+      >
+        Prev
+      </button>
+
+      <button
+        className="forward"
+        onClick={() => swiperRef.current?.slideNext()}
+      >
+        Next
+      </button>
+      </div>
         <Swiper
+          onSwiper={(swiper) => (swiperRef.current = swiper)}
           slidesPerView={4}
           spaceBetween={20}
           freeMode={false}

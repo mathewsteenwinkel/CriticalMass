@@ -9,6 +9,8 @@ function Blog() {
     </>
   );
 
+  
+
   return (
     <div className='section__blog'>
       <div className='blog'>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import './Articles.css';
@@ -9,9 +9,27 @@ import 'swiper/css/pagination';
 import { FreeMode, Pagination } from 'swiper/modules';
 
 export default function Articles() {
+  const swiperRef = useRef(null);
+
   return (
     <>
+      <div className='buttons'>
+        <button
+          className="back"
+          onClick={() => swiperRef.current?.slidePrev()}
+        >
+          <div class="arrow-back"> ←</div>
+        </button>
+        <button
+          className="forward"
+          onClick={() => swiperRef.current?.slideNext()}
+        >
+
+          <div class="arrow-forward"> ←</div>
+        </button>
+      </div>
       <Swiper
+        onSwiper={(swiper) => (swiperRef.current = swiper)}
         slidesPerView={2}
         spaceBetween={20}
         freeMode={false}
@@ -39,7 +57,7 @@ export default function Articles() {
         </SwiperSlide>
         <SwiperSlide className='slide'>
           <div className='photo-div'>
-            <img src='./Assets/Handshake.jpg' className='photo' alt=''/>
+            <img src='./Assets/Handshake.jpg' className='photo' alt='' />
           </div>
           <div className='Name-Date'>
             <p className='author'> Dan Murphy</p>
