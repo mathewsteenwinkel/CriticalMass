@@ -9,7 +9,7 @@ html {
 }
 
 .mySwiper {
-  width: 66%;
+  width: 60%;
   height: 100%;
   margin-top: 50px;
 }
@@ -40,7 +40,7 @@ html {
   vertical-align: middle;
   aspect-ratio: 3/2;
   object-fit: cover;
-  width: 550px !important;
+  width: 530px !important;
   transition: transform 0.7s ease-in-out;
 }
 

@@ -6,21 +6,23 @@ import { gsap } from 'gsap';
 function Billboard() {
 
   useGSAP(() => {
-    gsap.fromTo('.name', 
-      {opacity: 0, y: 100}, 
-      {opacity: 1, y: 0, duration: 1, delay: 0.5})}
-    )
+    gsap.fromTo('.name',
+      { opacity: 0, y: 100 },
+      { opacity: 1, y: 0, duration: 1, delay: 0.5 })
+  }
+  )
 
   useGSAP(() => {
-    gsap.fromTo('.subHeading', 
-    {opacity: 0, y: 100}, 
-    {opacity: 1, y: 0, duration: 1.5, delay: .6})}
+    gsap.fromTo('.subHeading',
+      { opacity: 0, y: 100 },
+      { opacity: 1, y: 0, duration: 1.5, delay: .6 })
+  }
   )
 
 
   return (
     <div className='header-container'>
-      <a>
+
         <div className='name'> Critical Mass.
           <div className='subHeading'>
             <div className='left-side'>
@@ -28,17 +30,16 @@ function Billboard() {
               <div>Digital is our home.</div>
             </div>
             <div className='right-side'>
-                <img src="/Assets/Mapleleaf.png" className='leaf' alt=''/> 
+              <img src="/Assets/Mapleleaf.png" className='leaf' alt='' />
               <div className='wordings-right'>
-              Canada + the World
+                Canada + the World
                 <div>
-                Since '96
+                  Since '96
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </a>
     </div>
   )
 }
