@@ -12,6 +12,7 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
+  padding-bottom: 90px;
 }
 
 .City-container{
@@ -32,7 +33,10 @@
   line-height: 36px;
   font-weight: 300;
   height: 155px;
+}
 
+.City-name{
+  width: 20%;
 }
 
 .City:hover .City-photo{
@@ -41,13 +45,13 @@
 
 .City-photo{
   opacity: 0;
-  position: absolute;
-  top: -4%;
-  left: 35%;
-  transition: opacity 0.3s ease-in-out;
-  height: 300px;
-  width: 300px;
+  transition: opacity 0.2s ease-in-out;
+  height: 350px;
+  width: 350px;
   object-fit: cover;
+  z-index: 1;
+  position: absolute;
+
 }
 
 .Address{
@@ -56,7 +60,7 @@
   margin: 0;
   font-size: 17px;
   height: 155px;
-  width: 1175px;
+  width: 60%;
   justify-content: end;
 }
 
@@ -65,7 +69,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+  width: 20%;
 }
 
 .address-street{
@@ -73,7 +77,6 @@
   line-height: 26px;
   display: flex;
   align-content: center;
-
 }
 
 .Seperator{
@@ -85,7 +88,7 @@
 .location-jobs{
   display: flex;
   flex-direction: row;
-  width: 475px;
+  width: 18%;
   justify-content: end;
 }
 
@@ -118,3 +121,62 @@
   
 }
 
+.Calgary{
+  top: -2%;
+  left: 35%;
+}
+
+.Chicago{
+  top: 5%;
+  left: 35%;
+}
+
+.Cupertino{
+  top: 12%;
+  left: 40%;
+}
+
+.London{
+  top: 19%;
+  left: 40%;
+}
+
+.Los{
+  top: 29%;
+  left: 35%;
+}
+
+.Nash{
+  top: 37%;
+  left: 36%;
+}
+
+.New{
+  top: 45%;
+  left: 35%;
+}
+
+.San{
+  top: 50%;
+  left: 40%;
+}
+
+.Sao{
+  top: 60%;
+  left: 38%;
+}
+
+.Tokyo{
+  top: 68%;
+  left: 46% ;
+}
+
+.Toronto{
+  top: 77%;
+  left: 40%;
+}
+
+.Van{
+  top: 85%;
+  left: 43%;
+}

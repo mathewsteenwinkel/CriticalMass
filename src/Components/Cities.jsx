@@ -11,7 +11,7 @@ function Cities() {
             Calgary, AB
           </div>
           <div className='Address'>
-            <img src='./Assets/Calgary.webp' className='City-photo' />
+            <img src='./Assets/Cities/Calgary.webp' className='City-photo Calgary' />
             <div className='Address-city'>
               <p className='address-street'>1011 9th Ave SE</p>
               <p className='address-street'> Suite 300</p>
@@ -37,7 +37,7 @@ function Cities() {
             Chicago, IL
           </div>
           <div className='Address'>
-            <img src='./Assets/Calgary.webp' className='City-photo' />
+            <img src='./Assets/Cities/Chicago.webp' className='City-photo Chicago' />
             <div className='Address-city'>
               <p className='address-street'>225 N Michigan Ave</p>
               <p className='address-street'> Suite 700</p>
@@ -63,7 +63,7 @@ function Cities() {
             Cupertino, CA
           </div>
           <div className='Address'>
-            <img src='./Assets/Calgary.webp' className='City-photo' />
+            <img src='./Assets/Cities/Cupertino.webp' className='City-photo Cupertino' />
             <div className='Address-city'>
               <p className='address-street'>75 E Santa Clara St</p>
               <p className='address-street'>7th Floor</p>
@@ -89,7 +89,7 @@ function Cities() {
             London, GB
           </div>
           <div className='Address'>
-            <img src='./Assets/Calgary.webp' className='City-photo' />
+            <img src='./Assets/Cities/London.webp' className='City-photo London' />
             <div className='Address-city'>
               <p className='address-street'>100 Southwark Street </p>
               <p className='address-street'> Bankside 2</p>
@@ -115,7 +115,7 @@ function Cities() {
             Los Angeles, CA
           </div>
           <div className='Address'>
-            <img src='./Assets/Calgary.webp' className='City-photo' />
+            <img src='./Assets/Cities/LosAngeles.webp' className='City-photo Los' />
             <div className='Address-city'>
               <p className='address-street'>5353 Grosvenor Blvd</p>
               <p className='address-street'> </p>
@@ -141,7 +141,7 @@ function Cities() {
             Nashville, TN
           </div>
           <div className='Address'>
-            <img src='./Assets/Calgary.webp' className='City-photo' />
+            <img src='./Assets/Cities/Nashville.webp' className='City-photo Nash' />
             <div className='Address-city'>
               <p className='address-street'>810 Crescent Centre Dr</p>
               <p className='address-street'> Suite 530</p>
@@ -167,7 +167,7 @@ function Cities() {
             New York, NY
           </div>
           <div className='Address'>
-            <img src='./Assets/Calgary.webp' className='City-photo' />
+            <img src='./Assets/Cities/NewYork.webp' className='City-photo New' />
             <div className='Address-city'>
               <p className='address-street'>200 Varick St.</p>
               <p className='address-street'> Suite 610</p>
@@ -193,7 +193,7 @@ function Cities() {
             San Jose, CR
           </div>
           <div className='Address'>
-            <img src='./Assets/Calgary.webp' className='City-photo' />
+            <img src='./Assets/Cities/SanJose.webp' className='City-photo San' />
             <div className='Address-city'>
               <p className='address-street'>CM LATAM Metro Free Zone.</p>
               <p className='address-street'> 5B-B</p>
@@ -219,7 +219,7 @@ function Cities() {
             Sao Paulo, BR
           </div>
           <div className='Address'>
-            <img src='./Assets/Calgary.webp' className='City-photo' />
+            <img src='./Assets/Cities/SaoPaulo.webp' className='City-photo Sao' />
             <div className='Address-city'>
               <p className='address-street'>270 R Henrique Schaumann</p>
               <p className='address-street'> 6th Floor</p>
@@ -242,7 +242,7 @@ function Cities() {
             Tokyo, JP
           </div>
           <div className='Address'>
-            <img src='./Assets/Calgary.webp' className='City-photo' />
+            <img src='./Assets/Cities/Tokyo.webp' className='City-photo Tokyo' />
             <div className='Address-city'>
               <p className='address-street'>Toun Building 13-10 Shibaura</p>
               <p className='address-street'> 1-chome</p>
@@ -265,7 +265,7 @@ function Cities() {
             Toronto, ON
           </div>
           <div className='Address'>
-            <img src='./Assets/Calgary.webp' className='City-photo' />
+            <img src='./Assets/Cities/Toronto.webp' className='City-photo Toronto' />
             <div className='Address-city'>
               <p className='address-street'>33 Bloor Street East</p>
               <p className='address-street'> </p>
@@ -291,7 +291,7 @@ function Cities() {
             Vancouver, BC
           </div>
           <div className='Address'>
-            <img src='./Assets/Calgary.webp' className='City-photo' />
+            <img src='./Assets/Cities/Vancouver.webp' className='City-photo Van' />
             <div className='Address-city'>
               <p className='address-street'>BC V5H 2Y3, WeWork 6060</p>
               <p className='address-street'>Silver Dr. Burnaby</p>
