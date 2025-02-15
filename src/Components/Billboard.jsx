@@ -28,7 +28,7 @@ function Billboard() {
               <div>Digital is our home.</div>
             </div>
             <div className='right-side'>
-                <img src="/Assets/Mapleleaf.png" className='leaf'/> 
+                <img src="/Assets/Mapleleaf.png" className='leaf' alt=''/> 
               <div className='wordings-right'>
               Canada + the World
                 <div>

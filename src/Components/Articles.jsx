@@ -27,7 +27,7 @@ export default function Articles() {
       >
         <SwiperSlide className='slide'>
           <div className='photo-div'>
-            <img src='./Assets/adobestock_892449730.jpeg.avif' className='photo' />
+            <img src='./Assets/adobestock_892449730.jpeg.avif' className='photo' alt='' />
           </div>
           <div className='Name-Date'>
             <p className='author'> Jennifer faull</p>
@@ -39,7 +39,7 @@ export default function Articles() {
         </SwiperSlide>
         <SwiperSlide className='slide'>
           <div className='photo-div'>
-            <img src='./Assets/Handshake.jpg' className='photo' />
+            <img src='./Assets/Handshake.jpg' className='photo' alt=''/>
           </div>
           <div className='Name-Date'>
             <p className='author'> Dan Murphy</p>
@@ -51,7 +51,7 @@ export default function Articles() {
         </SwiperSlide>
         <SwiperSlide className='slide'>
           <div className='photo-div'>
-            <img src='./Assets/Cerave.jpg' className='photo' />
+            <img src='./Assets/Cerave.jpg' className='photo' alt='' />
           </div>
           <div className='Name-Date'>
             <p className='author'> Bailey Calfee</p>
@@ -63,7 +63,7 @@ export default function Articles() {
         </SwiperSlide>
         <SwiperSlide className='slide'>
           <div className='photo-div'>
-            <img src='./Assets/Starburst_Possibilities.png' className='photo' />
+            <img src='./Assets/Starburst_Possibilities.png' className='photo' alt='' />
           </div>
           <div className='Name-Date'>
             <p className='author'> Tim Nudd</p>
@@ -75,7 +75,7 @@ export default function Articles() {
         </SwiperSlide>
         <SwiperSlide className='slide'>
           <div className='photo-div'>
-            <img src='./Assets/MandM.webp' className='photo' />
+            <img src='./Assets/MandM.webp' className='photo' alt='' />
           </div>
           <div className='Name-Date'>
             <p className='author'> </p>

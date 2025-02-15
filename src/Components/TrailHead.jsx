@@ -20,14 +20,14 @@ function TrailHead() {
         onMouseEnter={() => setCursorVisible(true)}
         onMouseLeave={() => setCursorVisible(false)}
       >
-        <img src='./Assets/texture.jpg' className='texture' />
+        <img src='./Assets/texture.jpg' className='texture' alt='' />
         <div className='Trail-left'>
           <div className='left-div'>
             <div className='Trail-info'>
               {text}
             </div>
             <div className='Trail-logo'>
-              <img src='./Assets/Tralhead_logo_blue.png' className='Trail-logo' />
+              <img src='./Assets/Tralhead_logo_blue.png' className='Trail-logo' alt='' />
             </div>
             <div className='Trail-info'>
               No experience required
@@ -36,7 +36,7 @@ function TrailHead() {
         </div>
         <div className='Trail-right'>
           <div className='photoOfMe'>
-            <img src='./Assets/Me.png' className='photo-me' />
+            <img src='./Assets/Me.png' className='photo-me'  alt=''/>
           </div>
         </div>
       </div>

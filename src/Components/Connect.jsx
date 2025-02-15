@@ -45,7 +45,7 @@ function Connect() {
               Join our team.
             </p>
             <p className='email'>
-              explore careers
+              Explore careers
             </p>
           </div>
           </div>

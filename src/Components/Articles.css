@@ -14,6 +14,9 @@ html {
   margin-top: 50px;
 }
 
+.slide{
+  cursor: pointer;
+}
 
 .swiper-container {
   display: flex;

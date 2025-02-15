@@ -8,7 +8,7 @@ function PastWork() {
       <div className='past-works'>
         <div className='past-works-body'>
           <div className='visuals'>
-            <img src='./Assets/Car.jpg' className='cover-photo' />
+            <img src='./Assets/Car.jpg' className='cover-photo' alt='' />
             <video className='small-video' autoPlay loop muted>
               <source src='./Assets/Lagoon.mp4' type='video/mp4'/>
             </video>
@@ -29,7 +29,7 @@ function PastWork() {
 
         <div className='past-works-body'>
           <div className='visuals'>
-            <img src='./Assets/Dwight.jpg' className='cover-photo' />
+            <img src='./Assets/Dwight.jpg' className='cover-photo' alt='' />
             <video className='small-video'>
               <source />
             </video>
@@ -52,7 +52,7 @@ function PastWork() {
 
         <div className='past-works-body'>
           <div className='visuals'>
-            <img src='./Assets/Starburst.jpg' className='cover-photo' />
+            <img src='./Assets/Starburst.jpg' className='cover-photo' alt='' />
             <video className='small-video'>
               <source />
             </video>
