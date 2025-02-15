@@ -9,23 +9,24 @@ html{
 }
 
 .past-works{
-  padding-left: 1.5rem;
+  position: relative;
+  padding-left: 1.8rem;
   font-family: 'PP object sans', sans-serif;
-  width: 1620px;
+  width: 1550px;
   display: flex;
   gap: 2rem;
   height: 600px;
 }
 
 .visuals{
-  position: relative;
   aspect-ratio: 410/170;
   height: 600px;
-  overflow: hidden;
+  width: 100%;
   top: auto;
 }
 
 .cover-photo{
+  position: relative;
   height: 100%;
   width: 100%;
   opacity: 1;
@@ -43,9 +44,6 @@ html{
   width: 33%;
 }
 
-.past-works-text{
-  margin-top: 600px;
-}
 
 .brand-title{
   font-weight: 700;
@@ -70,11 +68,27 @@ html{
 }
 
 .small-video{
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 600px;
-  width: 510px;
+  aspect-ratio: 410/170;
+  height: 593px;
+  width: 511px;
   object-fit: cover;
   z-index: 0;
+}
+
+.lagoon{
+  position: absolute;
+  top: 0;
+  left: 1.8rem;
+}
+
+.shower{
+  position:absolute;
+  top:0;
+  left: 36.6%;
+}
+
+.snowboarding{
+  position: absolute;
+  top: 0;
+  left: 71.25%;
 }

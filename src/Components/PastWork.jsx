@@ -9,8 +9,8 @@ function PastWork() {
         <div className='past-works-body'>
           <div className='visuals'>
             <img src='./Assets/Car.jpg' className='cover-photo' alt='' />
-            <video className='small-video' autoPlay loop muted>
-              <source src='./Assets/Lagoon.mp4' type='video/mp4'/>
+            <video className='small-video lagoon' autoPlay loop muted>
+              <source src='./Assets/Lagoon.mp4' type='video/mp4' />
             </video>
           </div>
           <div className='past-works-text'>
@@ -30,8 +30,8 @@ function PastWork() {
         <div className='past-works-body'>
           <div className='visuals'>
             <img src='./Assets/Dwight.jpg' className='cover-photo' alt='' />
-            <video className='small-video'>
-              <source />
+            <video className='small-video shower' autoPlay loop muted>
+              <source src='./Assets/Shower.mp4'/>
             </video>
 
           </div>
@@ -53,8 +53,8 @@ function PastWork() {
         <div className='past-works-body'>
           <div className='visuals'>
             <img src='./Assets/Starburst.jpg' className='cover-photo' alt='' />
-            <video className='small-video'>
-              <source />
+            <video className='small-video snowboarding' autoPlay loop muted>
+              <source src='./Assets/Snowboarding.mp4'/>
             </video>
 
           </div>
