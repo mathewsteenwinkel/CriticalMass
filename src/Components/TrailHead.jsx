@@ -2,7 +2,11 @@ import { useState } from 'react'
 import React from 'react'
 import './TrailHead.css'
 import TrailHeadCursor from './TrailHeadCursor'
+import { useGSAP } from '@gsap/react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+gsap.registerPlugin(ScrollTrigger)
 
 
 function TrailHead() {
@@ -11,6 +15,46 @@ function TrailHead() {
   const text = <>
     Our in-house development <br /> program for emerging talent.
   </>
+
+useGSAP(() => {
+  gsap.fromTo(
+    ".left-div",
+    {
+      opacity: 0,
+      y: 100
+    },
+    {
+      opacity: 1,
+      duration: 2,
+      y: 0,
+      scrollTrigger: {
+        trigger: '.trailhead-div',
+        start:'top 50%',
+
+      }
+    }
+  );
+});
+
+useGSAP(() => {
+  gsap.fromTo(
+    ".photoOfMe",
+    {
+      opacity: 0,
+    },
+    {
+      opacity: 1,
+      duration: 2,
+      scrollTrigger: {
+        trigger: '.trailhead-div',
+        start:'top 50%',
+
+      }
+    }
+  );
+});
+
+
 
   return (
     <div className='trailhead-div'>

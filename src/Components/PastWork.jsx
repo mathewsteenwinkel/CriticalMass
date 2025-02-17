@@ -1,8 +1,35 @@
 import React from 'react'
 import './PastWork.css'
+import { useGSAP } from '@gsap/react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger)
 
 
 function PastWork() {
+  useGSAP(() => {
+    gsap.fromTo(
+      ".past-works-body",
+      {
+        opacity: 0,
+        y: 100
+      },
+      {
+        opacity: 1,
+        duration: 2,
+        y: 0,
+        scrollTrigger: {
+          trigger: '.past-works-body',
+          start:'top 75%',
+
+        }
+      }
+    );
+  });
+
+
+
   return (
     <div>
       <div className='past-works'>

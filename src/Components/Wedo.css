@@ -30,7 +30,7 @@
   justify-content: end;
 
 }
-.we-do-right{
+.we-do-left{
   display: flex;
   flex-direction: column;
   width: 570px;
@@ -57,15 +57,22 @@
 
 .Attributes{
   padding-left: 5.5%;
+  
 }
 
 .att-text{
+  list-style-type: none;
   font-family: 'PP object sans', sans-serif ;
   text-transform: uppercase;
   font-size: 28px;
   font-weight: 300;
   letter-spacing: 4px;
-  line-height: 30px;
+  line-height: 32px;
   padding-top: 3px;
   padding-bottom: 3px;
+}
+
+.item{
+  padding-top: 3px;
+  padding-bottom: 35px;
 }

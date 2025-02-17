@@ -3,16 +3,37 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
-
 import { FreeMode, Pagination } from 'swiper/modules';
-
 import './Awards.css';
+import { useGSAP } from '@gsap/react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+gsap.registerPlugin(ScrollTrigger)
 
 
 function Awards() {
   const swiperRef = useRef(null);
 
+  useGSAP(() => {
+    gsap.fromTo(
+      ".awards-body",
+      {
+        opacity: 0,
+        y: 100
+      },
+      {
+        opacity: 1,
+        duration: 2,
+        y: 0,
+        scrollTrigger: {
+          trigger: '.awards',
+          start:'top 75%',
+
+        }
+      }
+    );
+  });
 
 
 
