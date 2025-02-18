@@ -78,17 +78,17 @@ html{
 .lagoon{
   position: absolute;
   top: 0;
-  left: 1.8rem;
+  left: 0;
 }
 
 .shower{
   position:absolute;
   top:0;
-  left: 36.6%;
+  left: 0;
 }
 
 .snowboarding{
   position: absolute;
   top: 0;
-  left: 71.25%;
+  left: 0;
 }
