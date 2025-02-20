@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Portfolio/criticalmass/static/css/main.b074695f.css",
+    "main.js": "/Portfolio/criticalmass/static/js/main.04c24055.js",
+    "static/js/151.e89bfdd9.chunk.js": "/Portfolio/criticalmass/static/js/151.e89bfdd9.chunk.js",
+    "static/media/object.ttf": "/Portfolio/criticalmass/static/media/object.74455d26f8698118f848.ttf",
+    "static/media/Compacta.otf": "/Portfolio/criticalmass/static/media/Compacta.8fe520cd86acade9bad8.otf",
+    "index.html": "/Portfolio/criticalmass/index.html",
+    "main.b074695f.css.map": "/Portfolio/criticalmass/static/css/main.b074695f.css.map",
+    "main.04c24055.js.map": "/Portfolio/criticalmass/static/js/main.04c24055.js.map",
+    "151.e89bfdd9.chunk.js.map": "/Portfolio/criticalmass/static/js/151.e89bfdd9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b074695f.css",
+    "static/js/main.04c24055.js"
+  ]
+}
